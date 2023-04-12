@@ -34,10 +34,5 @@ public class FlightTest {
         assertThat(flight.getPassengerCount()).isEqualTo(1);
     }
 
-    @Test
-    public void canGetListOfPassengers(){
-        flight.addPassenger(passenger1);
-        System.out.println(flight.getPassengerList());
-//        assertThat(flight.getPassengerList()).isEqualTo(passenger1);
-    }
+
 }
