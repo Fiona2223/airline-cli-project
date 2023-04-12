@@ -1,11 +1,12 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Runner {
-    Flight flight1 = new Flight("Thailand", "T123");
-    Flight flight2 = new Flight("Spain", "S257");
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Flight flight1 = new Flight("Thailand", "T123");
+        Flight flight2 = new Flight("Spain", "S257");
 
 //        while(true){
             //    ask user for name, contact details and ID
@@ -16,6 +17,13 @@ public class Runner {
             System.out.println("Enter your ID");
             int iD = scanner.nextInt();
             Passenger passenger = new Passenger(name, contactDetails, iD);
+
+           AirlineBooking airlineBooking = new AirlineBooking();
+           airlineBooking.addFlight(flight1);
+           airlineBooking.addFlight(flight2);
+
+           System.out.println("List of flights" + airlineBooking.getFlightList());
+
 
 
 //    ask user for destination
