@@ -30,4 +30,12 @@ public class AirlineBookingTest {
         assertThat(airlineBooking.getFlightCount()).isEqualTo(0);
     }
 
+//    @Test
+//    public void canCancelFlightBooking(){
+//        flight.addPassenger(passenger1);
+//        airlineBooking.cancelFlightBooking(passenger1);
+////        assert that the flight doesn't contain passenger1
+//        assertThat(flight.getPassengerList()).doesNotReturn(passenger1);
+//    }
+
 }

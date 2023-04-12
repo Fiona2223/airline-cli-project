@@ -28,6 +28,10 @@ public class Flight {
         this.passengers.add(passenger);
     }
 
+    public void removePassenger(Passenger passenger){
+        this.passengers.remove(passenger);
+    }
+
     public ArrayList<Passenger> getPassengerList(){
         return passengers;
     }

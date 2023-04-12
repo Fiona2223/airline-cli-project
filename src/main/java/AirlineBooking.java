@@ -19,6 +19,10 @@ public class AirlineBooking {
         this.flight.remove(flight);
     }
 
+//    public void cancelFlightBooking(Flight flights){
+//        this.flight.flights.removePassenger(Passenger passenger);
+//    }
+
     public ArrayList<Flight> getFlightList() {
         return flight;
     }
