@@ -22,12 +22,14 @@ public class Runner {
            airlineBooking.addFlight(flight1);
            airlineBooking.addFlight(flight2);
 
-           System.out.println("List of flights" + airlineBooking.getFlightList());
+//    display available flights
+
+           System.out.println("List of flights " + flight1 + flight2);
+
 
 
 
 //    ask user for destination
-//    display available flights
 //    ask for confirmation to book selected flight
 //    display confirmation of booking
 //    option to cancel flight

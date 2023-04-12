@@ -27,6 +27,10 @@ public class AirlineBooking {
         return flight;
     }
 
+    public String toString(){
+        return "Flights: " + String.valueOf(flight);
+    }
+
     public void setFlightList(ArrayList<Flight> flight) {
         this.flight = flight;
     }
